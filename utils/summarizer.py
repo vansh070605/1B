@@ -4,32 +4,20 @@ from typing import List, Dict
 
 class SubSectionSummarizer:
     def __init__(self):
-<<<<<<< HEAD
-        # Initialize the summarizer pipeline with a pre-trained model
-=======
         # Lightweight summarization model (under 500MB)
->>>>>>> bcd4d18a44732faafd626984dad87d1912a3fe60
         self.summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
     def extract_subsections(self, sections: List[Dict], persona: str, job_description: str) -> List[Dict]:
         """
-<<<<<<< HEAD
-        Generate refined summaries for each unique section.
-=======
         Refines top sections by summarizing them in context of persona and job.
->>>>>>> bcd4d18a44732faafd626984dad87d1912a3fe60
 
         Args:
             sections (List[Dict]): List of extracted document sections.
-            persona (str): Persona context for the summarization (can be extended).
-            job_description (str): Task context (can be used for prompting).
+            persona (str): Persona context for the summarization.
+            job_description (str): Task context for prompting.
 
         Returns:
-<<<<<<< HEAD
-            List[Dict]: List of summarized sub-sections.
-=======
             list: Refined summaries with metadata.
->>>>>>> bcd4d18a44732faafd626984dad87d1912a3fe60
         """
         sub_analysis = []
         seen = set()
@@ -43,7 +31,6 @@ class SubSectionSummarizer:
         for section in sections:
             try:
                 content = section.get("text", "").strip()
-<<<<<<< HEAD
                 doc = section.get("document", "unknown")
                 page = section.get("page_number", 0)
 
@@ -55,20 +42,6 @@ class SubSectionSummarizer:
                 if dedup_key in seen:
                     continue
                 seen.add(dedup_key)
-
-                # Truncate overly long content for the model
-                input_text = content if len(content) < 1000 else content[:1000]
-
-                summary = self.summarizer(
-                    input_text,
-                    max_length=150,
-                    min_length=40,
-                    do_sample=False
-                )[0]["summary_text"]
-=======
-
-                if not content:
-                    continue
 
                 # Truncate intelligently to ~1000 chars with sentence boundary
                 if len(content) > 1000:
@@ -84,7 +57,6 @@ class SubSectionSummarizer:
                     min_length=40,
                     do_sample=False
                 )[0]["summary_text"].strip()
->>>>>>> bcd4d18a44732faafd626984dad87d1912a3fe60
 
                 sub_analysis.append({
                     "document": doc,

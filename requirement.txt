@@ -15,3 +15,10 @@ pandas>=2.0.0
 
 # Regex support
 regex>=2023.6.0
+
+# Language detection
+langdetect>=1.0.9
+
+# Transformers for summarization
+transformers>=4.30.0
+torch>=2.0.0
