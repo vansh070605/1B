@@ -11,180 +11,170 @@
     ],
     "persona": "Research Analyst",
     "job_to_be_done": "Analyze the provided documents and extract key insights",
-    "processing_timestamp": "2025-07-28T20:12:42.668575"
+    "processing_timestamp": "2025-07-28T23:21:46.131361"
   },
   "extracted_sections": [
     {
-      "document": "input\\South of France - Tips and Tricks.pdf",
-      "page_number": 1,
-      "section_title": "Introduction",
+      "document": "South of France - Cities.pdf",
+      "page_number": 7,
+      "section_title": "Cultural Activities",
       "importance_rank": 1
     },
     {
-      "document": "input\\South of France - Things to Do.pdf",
-      "page_number": 8,
-      "section_title": "Boutique Shopping",
+      "document": "South of France - Cities.pdf",
+      "page_number": 10,
+      "section_title": "Student Life",
       "importance_rank": 2
     },
     {
-      "document": "input\\South of France - Things to Do.pdf",
-      "page_number": 8,
-      "section_title": "Local Markets",
+      "document": "South of France - Cities.pdf",
+      "page_number": 5,
+      "section_title": "Hidden Gems",
       "importance_rank": 3
     },
     {
-      "document": "input\\South of France - Traditions and Culture.pdf",
-      "page_number": 2,
-      "section_title": "Provençal Language",
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 7,
+      "section_title": "City Exploration",
       "importance_rank": 4
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "page_number": 10,
-      "section_title": "Student Life",
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 7,
+      "section_title": "Special Considerations",
       "importance_rank": 5
     },
     {
-      "document": "input\\South of France - Traditions and Culture.pdf",
-      "page_number": 2,
-      "section_title": "Transhumance Festivals",
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 8,
+      "section_title": "Local Markets",
       "importance_rank": 6
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "page_number": 10,
-      "section_title": "Cultural Highlights",
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 4,
+      "section_title": "Clothing",
       "importance_rank": 7
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "page_number": 10,
-      "section_title": "History",
+      "document": "South of France - Tips and Tricks.pdf",
+      "page_number": 4,
+      "section_title": "Toiletries",
       "importance_rank": 8
     },
     {
-      "document": "input\\South of France - History.pdf",
-      "page_number": 12,
-      "section_title": "Conclusion",
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 9,
+      "section_title": "Educational Experiences",
       "importance_rank": 9
     },
     {
-      "document": "input\\South of France - Things to Do.pdf",
+      "document": "South of France - Traditions and Culture.pdf",
       "page_number": 3,
-      "section_title": "Cultural Experiences",
+      "section_title": "Truﬄe Hunting",
       "importance_rank": 10
     },
     {
-      "document": "input\\South of France - Tips and Tricks.pdf",
-      "page_number": 4,
-      "section_title": "Toiletries",
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 3,
+      "section_title": "Historical Sites",
       "importance_rank": 11
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "page_number": 10,
-      "section_title": "Key Attractions",
+      "document": "South of France - History.pdf",
+      "page_number": 12,
+      "section_title": "Conclusion",
       "importance_rank": 12
     },
     {
-      "document": "input\\South of France - Tips and Tricks.pdf",
-      "page_number": 9,
-      "section_title": "Conclusion",
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "page_number": 6,
+      "section_title": "Luxurious Restaurants",
       "importance_rank": 13
     },
     {
-      "document": "input\\South of France - Tips and Tricks.pdf",
-      "page_number": 4,
-      "section_title": "Clothing",
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "page_number": 2,
+      "section_title": "Restaurants",
       "importance_rank": 14
     },
     {
-      "document": "input\\South of France - Restaurants and Hotels.pdf",
-      "page_number": 6,
-      "section_title": "Luxurious Restaurants",
+      "document": "South of France - Cities.pdf",
+      "page_number": 8,
+      "section_title": "Artistic Heritage",
       "importance_rank": 15
     },
     {
-      "document": "input\\South of France - Things to Do.pdf",
-      "page_number": 11,
-      "section_title": "Nightclubs",
+      "document": "South of France - Traditions and Culture.pdf",
+      "page_number": 4,
+      "section_title": "Saint Sara.",
       "importance_rank": 16
     },
     {
-      "document": "input\\South of France - Things to Do.pdf",
-      "page_number": 3,
-      "section_title": "Historical Sites",
+      "document": "South of France - Cities.pdf",
+      "page_number": 13,
+      "section_title": "Medieval Life",
       "importance_rank": 17
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "page_number": 11,
-      "section_title": "Cultural Highlights",
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 8,
+      "section_title": "Boutique Shopping",
       "importance_rank": 18
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "page_number": 11,
-      "section_title": "Key Attractions",
+      "document": "South of France - Things to Do.pdf",
+      "page_number": 3,
+      "section_title": "Cultural Experiences",
       "importance_rank": 19
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "page_number": 11,
-      "section_title": "History",
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "page_number": 4,
+      "section_title": "Upscale Restaurants",
       "importance_rank": 20
     }
   ],
   "sub_section_analysis": [
     {
-      "document": "input\\South of France - Tips and Tricks.pdf",
-      "refined_text": " The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, Planning, and Exploring . This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities .",
-      "page_number": 1
+      "document": "South of France - Cities.pdf",
+      "refined_text": " Explore the city's vibrant arts scene, with numerous galleries and exhibitions . Attend a performance at the Opéra Grand Avignon for a cultural treat . Explore the Arts Scene: Explore the city's vibrant Arts Scene .",
+      "page_number": 7
     },
     {
-      "document": "input\\South of France - Things to Do.pdf",
-      "refined_text": " The South of France is a shopper's paradise, with a variety of markets, boutiques, and artisan shops . Explore the vibrant Cours Saleya Market in Nice and Saint-Rémy-de-Provence .",
+      "document": "South of France - Cities.pdf",
+      "refined_text": " Mention modern architectural landmarks like the Antigone district or the Pierresvives building . Highlight the vibrant student life and the influence of the university on the city's culture . Mention the university's influence on culture and modern architecture .",
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": " Russian Orthodox Cathedral is a unique architectural gem in Nice . Explore the works of Marc Chagall at this dedicated museum . Discover the botanical wonders at Parc Phoenix, a beautiful garden and park .",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": " Use a small, secure day bag for carrying essentials like water, snacks, and a camera . Use a money belt or hidden pouch to keep valuables safe . Consider using public transportation to explore cities eﬃciently .",
+      "page_number": 7
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": " Aix-en-Provence: Explore the vibrant Cours Saleya Market in Nice . Cannes: Visit Marché Forville for fresh seafood and local produce . Avignon: Discover local products at Marché des Halles . Sarlat: Visit the bustling market in the heart of the medieval town of Sarlat .",
       "page_number": 8
     },
     {
-      "document": "input\\South of France - Things to Do.pdf",
-      "refined_text": " The South of France is a shopper's paradise, with a variety of markets, boutiques, and artisan shops . Explore the vibrant Cours Saleya Market in Nice and Saint-Rémy-de-Provence .",
-      "page_number": 8
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": " Pack a nice dress or dress pants and a blouse/shirt for evening wear . If you plan on hiking or outdoor activities, pack activewear like leggings, shorts, and moisture-wicking tops . Don't forget your swimsuit for beach or pool visits .",
+      "page_number": 4
     },
     {
-      "document": "input\\South of France - Traditions and Culture.pdf",
-      "refined_text": " The Provençal language, also known as Occitan, has been a significant part of the cultural identity of the South of France . French is the dominant language today, but the language was widely spoken until the 19th century . It is still preserved in literature, music, and local expressions .",
-      "page_number": 2
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": " Toiletries: Toothbrush, toothpaste, shampoo, conditioner, body wash, deodorant, and personal hygiene items . Skincare: Sunscreen, moisturizer, and daily skincare products . Makeup: Pack essentials in a travel-sized makeup bag .",
+      "page_number": 4
     },
     {
-      "document": "input\\South of France - Cities.pdf",
-      "refined_text": " Montpellier, founded in the 10th century, is known for its prestigious university and vibrant cultural scene . The city has a rich history, with a blend of medieval, Renaissance, and modern architecture .",
-      "page_number": 10
-    },
-    {
-      "document": "input\\South of France - Traditions and Culture.pdf",
-      "refined_text": " The Provençal language, also known as Occitan, has been a significant part of the cultural identity of the South of France . French is the dominant language today, but the language was widely spoken until the 19th century . It is still preserved in literature, music, and local expressions .",
-      "page_number": 2
-    },
-    {
-      "document": "input\\South of France - Cities.pdf",
-      "refined_text": " Montpellier, founded in the 10th century, is known for its prestigious university and vibrant cultural scene . The city has a rich history, with a blend of medieval, Renaissance, and modern architecture .",
-      "page_number": 10
-    },
-    {
-      "document": "input\\South of France - Cities.pdf",
-      "refined_text": " Montpellier, founded in the 10th century, is known for its prestigious university and vibrant cultural scene . The city has a rich history, with a blend of medieval, Renaissance, and modern architecture .",
-      "page_number": 10
-    },
-    {
-      "document": "input\\South of France - History.pdf",
-      "refined_text": " The South of France oﬀers a rich tapestry of history, culture, and architecture that is sure to captivate any traveler . From the Roman ruins of Nîmes and Arles to the medieval fortresses of Carcassonne and Avignon, each city and town has its own unique story to tell .",
-      "page_number": 12
-    },
-    {
-      "document": "input\\South of France - Things to Do.pdf",
-      "refined_text": " Visit the Musée Matisse, dedicated to the works of Henri Matisse and Vincent van Gogh . Explore the largest Gothic palace in Europe, the Palais des Papes in Avignon . Discover the Atelier Cézanne in Aix-en-Provence, showcasing works inspired by the painter .",
-      "page_number": 3
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": " Toulouse: Visit Cité de l'Espace for a space-themed science museum with interactive exhibits, a planetarium, and a replica of the Mir space station . The museum also features a replica from the Russian space station and interactive exhibits .",
+      "page_number": 9
     }
   ]
 }

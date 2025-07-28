@@ -1,43 +1,60 @@
 from transformers import pipeline
 from typing import List, Dict
 
+
 class SubSectionSummarizer:
     def __init__(self):
-        # Use a summarization pipeline from HuggingFace
+        # Initialize the summarizer pipeline with a pre-trained model
         self.summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
     def extract_subsections(self, sections: List[Dict], persona: str, job_description: str) -> List[Dict]:
         """
-        Generate refined summaries for each section using HuggingFace summarization.
-        
+        Generate refined summaries for each unique section.
+
         Args:
-            sections (list): Top ranked sections with 'text', 'document', and 'page_number'.
-            persona (str): Persona description
-            job_description (str): Job/task description
+            sections (List[Dict]): List of extracted document sections.
+            persona (str): Persona context for the summarization (can be extended).
+            job_description (str): Task context (can be used for prompting).
 
         Returns:
-            list: List of dicts containing document, page_number, and refined_text
+            List[Dict]: List of summarized sub-sections.
         """
         sub_analysis = []
+        seen = set()
 
         for section in sections:
             try:
-                content = section["text"]
-                
-                # Truncate if too long for model (~1024 tokens)
-                if len(content) > 1000:
-                    content = content[:1000]
+                content = section.get("text", "").strip()
+                doc = section.get("document", "unknown")
+                page = section.get("page_number", 0)
 
-                summary = self.summarizer(content, max_length=150, min_length=40, do_sample=False)[0]["summary_text"]
+                if not content or len(content) < 10:
+                    continue
+
+                # Avoid duplicates
+                dedup_key = (doc, page, content)
+                if dedup_key in seen:
+                    continue
+                seen.add(dedup_key)
+
+                # Truncate overly long content for the model
+                input_text = content if len(content) < 1000 else content[:1000]
+
+                summary = self.summarizer(
+                    input_text,
+                    max_length=150,
+                    min_length=40,
+                    do_sample=False
+                )[0]["summary_text"]
 
                 sub_analysis.append({
-                    "document": section["document"],
-                    "page_number": section["page_number"],
+                    "document": doc,
+                    "page_number": page,
                     "refined_text": summary
                 })
 
             except Exception as e:
-                print(f"   ✗ Error summarizing section from {section['document']}: {e}")
+                print(f"   ✗ Error summarizing section from {doc} (page {page}): {e}")
                 continue
 
         return sub_analysis
