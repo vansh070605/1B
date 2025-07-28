@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Research Analyst",
+    "job_to_be_done": "Analyze the provided documents and extract key insights",
+    "processing_timestamp": "2025-07-28T20:12:42.668575"
+  },
+  "extracted_sections": [
+    {
+      "document": "input\\South of France - Tips and Tricks.pdf",
+      "page_number": 1,
+      "section_title": "Introduction",
+      "importance_rank": 1
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "page_number": 8,
+      "section_title": "Boutique Shopping",
+      "importance_rank": 2
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "page_number": 8,
+      "section_title": "Local Markets",
+      "importance_rank": 3
+    },
+    {
+      "document": "input\\South of France - Traditions and Culture.pdf",
+      "page_number": 2,
+      "section_title": "Provençal Language",
+      "importance_rank": 4
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "page_number": 10,
+      "section_title": "Student Life",
+      "importance_rank": 5
+    },
+    {
+      "document": "input\\South of France - Traditions and Culture.pdf",
+      "page_number": 2,
+      "section_title": "Transhumance Festivals",
+      "importance_rank": 6
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "page_number": 10,
+      "section_title": "Cultural Highlights",
+      "importance_rank": 7
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "page_number": 10,
+      "section_title": "History",
+      "importance_rank": 8
+    },
+    {
+      "document": "input\\South of France - History.pdf",
+      "page_number": 12,
+      "section_title": "Conclusion",
+      "importance_rank": 9
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "page_number": 3,
+      "section_title": "Cultural Experiences",
+      "importance_rank": 10
+    },
+    {
+      "document": "input\\South of France - Tips and Tricks.pdf",
+      "page_number": 4,
+      "section_title": "Toiletries",
+      "importance_rank": 11
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "page_number": 10,
+      "section_title": "Key Attractions",
+      "importance_rank": 12
+    },
+    {
+      "document": "input\\South of France - Tips and Tricks.pdf",
+      "page_number": 9,
+      "section_title": "Conclusion",
+      "importance_rank": 13
+    },
+    {
+      "document": "input\\South of France - Tips and Tricks.pdf",
+      "page_number": 4,
+      "section_title": "Clothing",
+      "importance_rank": 14
+    },
+    {
+      "document": "input\\South of France - Restaurants and Hotels.pdf",
+      "page_number": 6,
+      "section_title": "Luxurious Restaurants",
+      "importance_rank": 15
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "page_number": 11,
+      "section_title": "Nightclubs",
+      "importance_rank": 16
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "page_number": 3,
+      "section_title": "Historical Sites",
+      "importance_rank": 17
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "page_number": 11,
+      "section_title": "Cultural Highlights",
+      "importance_rank": 18
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "page_number": 11,
+      "section_title": "Key Attractions",
+      "importance_rank": 19
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "page_number": 11,
+      "section_title": "History",
+      "importance_rank": 20
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "input\\South of France - Tips and Tricks.pdf",
+      "refined_text": " The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, Planning, and Exploring . This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities .",
+      "page_number": 1
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "refined_text": " The South of France is a shopper's paradise, with a variety of markets, boutiques, and artisan shops . Explore the vibrant Cours Saleya Market in Nice and Saint-Rémy-de-Provence .",
+      "page_number": 8
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "refined_text": " The South of France is a shopper's paradise, with a variety of markets, boutiques, and artisan shops . Explore the vibrant Cours Saleya Market in Nice and Saint-Rémy-de-Provence .",
+      "page_number": 8
+    },
+    {
+      "document": "input\\South of France - Traditions and Culture.pdf",
+      "refined_text": " The Provençal language, also known as Occitan, has been a significant part of the cultural identity of the South of France . French is the dominant language today, but the language was widely spoken until the 19th century . It is still preserved in literature, music, and local expressions .",
+      "page_number": 2
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "refined_text": " Montpellier, founded in the 10th century, is known for its prestigious university and vibrant cultural scene . The city has a rich history, with a blend of medieval, Renaissance, and modern architecture .",
+      "page_number": 10
+    },
+    {
+      "document": "input\\South of France - Traditions and Culture.pdf",
+      "refined_text": " The Provençal language, also known as Occitan, has been a significant part of the cultural identity of the South of France . French is the dominant language today, but the language was widely spoken until the 19th century . It is still preserved in literature, music, and local expressions .",
+      "page_number": 2
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "refined_text": " Montpellier, founded in the 10th century, is known for its prestigious university and vibrant cultural scene . The city has a rich history, with a blend of medieval, Renaissance, and modern architecture .",
+      "page_number": 10
+    },
+    {
+      "document": "input\\South of France - Cities.pdf",
+      "refined_text": " Montpellier, founded in the 10th century, is known for its prestigious university and vibrant cultural scene . The city has a rich history, with a blend of medieval, Renaissance, and modern architecture .",
+      "page_number": 10
+    },
+    {
+      "document": "input\\South of France - History.pdf",
+      "refined_text": " The South of France oﬀers a rich tapestry of history, culture, and architecture that is sure to captivate any traveler . From the Roman ruins of Nîmes and Arles to the medieval fortresses of Carcassonne and Avignon, each city and town has its own unique story to tell .",
+      "page_number": 12
+    },
+    {
+      "document": "input\\South of France - Things to Do.pdf",
+      "refined_text": " Visit the Musée Matisse, dedicated to the works of Henri Matisse and Vincent van Gogh . Explore the largest Gothic palace in Europe, the Palais des Papes in Avignon . Discover the Atelier Cézanne in Aix-en-Provence, showcasing works inspired by the painter .",
+      "page_number": 3
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Use latest PyMuPDF (has pre-compiled wheels)
+PyMuPDF>=1.24.0
+
+# NLP and Semantic Analysis
+sentence-transformers==2.2.2
+scikit-learn==1.3.0
+numpy>=1.24.0
+
+# Text Processing
+spacy>=3.6.0
+nltk>=3.8.0
+
+# Data Manipulation
+pandas>=2.0.0
+
+# Regex support
+regex>=2023.6.0
